@@ -1,0 +1,12 @@
+.navbar li {
+    display: inline;
+    color: yellow;
+  }
+  li a {
+    background-color: rgb(93, 93, 240);
+    color: rgb(247, 238, 238);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
