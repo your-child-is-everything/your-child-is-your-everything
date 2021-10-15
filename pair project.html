@@ -4,17 +4,29 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>project</title>
-    <link rel="stylesheet" href="./css.css">
+    <title>Document</title>
+    <link rel="stylesheet" href="css.css">
+    <script defer src="quiz for kids.js"></script>
 </head>
-<body>
-    <ul class='navbar'>
-        <li><a href="#home">Home</a></li>
-        <li><a href="#news">Parents </a></li>
-        <li><a href="#Your child">Your child</a></li>
-        <li><a href="#contact">Contact</a></li>
-        <li><a href="#about">About</a></li>
-      </ul>
-      <script src="hack.js"></script>
+<body>  
+    <div class="container">
+        <div id="question-container" class="hide">
+          <div id="question">Question</div>
+          <div id="answer-buttons" class="btn-grid">
+            <button class="btn">Answer 1</button>
+            <button class="btn">Answer 2</button>
+            <button class="btn">Answer 3</button>
+            <button class="btn">Answer 4</button>
+          </div>
+        </div>
+        <div class="controls">
+          <button id="start-btn" class="start-btn btn">Start</button>
+          <button id="next-btn" class="next-btn btn hide">Next</button>
+        </div>
+        <!--<img src="https://images-ext-1.discordapp.net/external/ggApAU85G74x2tEZYL-8EEDjfPsPofSQJmOc7UA6URk/https/thumbs.dreamstime.com/b/smart-kid-lightbulb-brainstorming-idea-concept-little-cute-student-boy-chalkboard-background-black-178865382.jpg%2522" alt="img">
+        -->
+        <div class="result">
+          <h3 id="result">Your result is waiting...</h3>
+        </div>
 </body>
 </html>
