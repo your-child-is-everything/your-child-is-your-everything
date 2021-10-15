@@ -1,13 +1,10 @@
-body{
-  background-image: ;
-}
+
 .navbar{
   background-color: #cbe920;
   border-radius: 10px;
   overflow: hidden;
   position: fixed;
-  width:98%;
-  
+  width:98%; 
 }
 
 .navbar a {
@@ -50,19 +47,25 @@ left: 30px;
 width: 400px;
 height: 200px;
 }*/
+.tab{
+  
+    margin-left: auto;
+    margin-right: auto;
+  
+  }
 
 .theme {
  
-width: 25%;
-padding : 5px;
-display : inline-block;
+/*width: 25%;*/
+/*padding : 5px;*/
+/*display : inline-block;*/
 margin-top: 100px;
 margin-bottom: 100px;
 margin-right: auto;
 
 }
 .gallery {
-  background-color: blue;
+  /*background-color: blue;*/
   width: 400px;
   height: 300px;
   margin-left: 20px;
